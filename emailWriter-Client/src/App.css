@@ -1,0 +1,59 @@
+/* App.css */
+body {
+    background-color: #f4f4f9; /* Light grey background for the entire app */
+    font-family: 'Roboto', sans-serif; /* Ensures font consistency */
+  }
+  
+  /* Container padding and margin adjustments for better spacing */
+  .MuiContainer-root {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Enhances the look of all buttons with a primary color */
+  .MuiButton-contained {
+    background-color: #1976d2; /* A pleasant blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #125ea8; /* A slightly darker blue on hover */
+  }
+  
+  /* TextField styling */
+  .MuiTextField-root {
+    margin-bottom: 16px; /* Consistent margin for all text fields */
+  }
+  
+  /* Customizes the look of the Select component */
+  .MuiSelect-select {
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  /* Error message styling */
+  .MuiTypography-colorError {
+    background-color: #ffcccb; /* Light red background for errors */
+    color: #d8000c; /* Darker text for better readability */
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Loading spinner color */
+  .MuiCircularProgress-colorPrimary {
+    color: #1976d2; /* Matching the primary button color */
+  }
+  
+  /* Enhances typography for headers */
+  .MuiTypography-h3 {
+    color: #333333; /* Darker color for better readability */
+    font-weight: 500;
+  }
+  
+  /* Enhances the appearance of the menu items */
+  .MuiMenuItem-root {
+    font-size: 16px; /* Larger font for easier reading */
+  }
+  
